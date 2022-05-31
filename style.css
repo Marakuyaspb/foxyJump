@@ -1,0 +1,79 @@
+body {
+	background-color: #172f46;
+	color: #3b638a;
+	font-size: 1em;
+	overflow: hidden;
+}
+
+p {
+	font-size: 1em;
+}
+
+#canvas {
+	background-image: url(mushroom.png);
+	cursor: none;
+	width: 400px;
+	height: 200px;
+	margin-top: 6em;
+	left:  50%;
+	position:  absolute;
+	transform: translate(-50%, -50%);
+}
+
+/* btn JUMP! */
+#btn {
+	background-color: #fc6949;
+	border: none;
+	border-radius: 10px;
+	color: #172f46;
+	display: block;
+  	margin: 0 auto;
+  	margin-top: 7em;
+	font-size: 2em;
+	font-weight: bold;
+	height: 1.8em;
+	width: 16em;
+}
+#btn:hover {
+	background-color: #f84b26;
+}
+#btn:active {
+	background-color: #fa3c13;
+}
+
+/* score & level */
+.info {
+	color: #de9e90;
+	background-color: #1a3854;
+	border: none;
+	border-radius: 10px;
+	height: 2.4em;
+	width: 8em;
+	margin-top: 0.8em;
+}	
+
+/* start screen */
+#start, #finish {
+	background-image: url(play.png);
+	color: #fc6949;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	width: 400px;
+	height: 218px;
+	margin: auto;
+	text-decoration: none;
+}
+
+#start a, #finish a {
+	color: #fa3c13;
+	display: block;
+  margin-top: 2em;
+	font-size: 1.5em;
+	text-decoration: none;
+	border: none;
+	border-radius: 10px;
+}
+#start a:hover, #finish a: hover {
+	background-color: #1a2f42;
+} 
